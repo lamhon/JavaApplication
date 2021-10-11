@@ -879,7 +879,7 @@ public class Main extends javax.swing.JFrame {
         btn_home.setBackground(new java.awt.Color(84, 140, 168));
         btn_home.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_home.setForeground(new java.awt.Color(238, 238, 238));
-        btn_home.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_home.png")); // NOI18N
+        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_home.png"))); // NOI18N
         btn_home.setText("HOME");
         btn_home.setBorder(null);
         btn_home.setBorderPainted(false);
@@ -895,11 +895,12 @@ public class Main extends javax.swing.JFrame {
         btn_create.setBackground(new java.awt.Color(84, 140, 168));
         btn_create.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_create.setForeground(new java.awt.Color(238, 238, 238));
-        btn_create.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_create.png")); // NOI18N
+        btn_create.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_create.png"))); // NOI18N
         btn_create.setText("BILL");
         btn_create.setBorder(null);
         btn_create.setBorderPainted(false);
         btn_create.setHorizontalAlignment(javax.swing.SwingConstants.LEADING);
+        btn_create.setName("btn_create"); // NOI18N
         btn_create.setPreferredSize(new java.awt.Dimension(130, 60));
         btn_create.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -911,7 +912,7 @@ public class Main extends javax.swing.JFrame {
         btn_product.setBackground(new java.awt.Color(84, 140, 168));
         btn_product.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_product.setForeground(new java.awt.Color(238, 238, 238));
-        btn_product.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_goods.png")); // NOI18N
+        btn_product.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_goods.png"))); // NOI18N
         btn_product.setText("PRODUCT");
         btn_product.setBorder(null);
         btn_product.setBorderPainted(false);
@@ -927,7 +928,7 @@ public class Main extends javax.swing.JFrame {
         btn_suplier.setBackground(new java.awt.Color(84, 140, 168));
         btn_suplier.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_suplier.setForeground(new java.awt.Color(238, 238, 238));
-        btn_suplier.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_suplier.png")); // NOI18N
+        btn_suplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_suplier.png"))); // NOI18N
         btn_suplier.setText("SUPLIER");
         btn_suplier.setBorder(null);
         btn_suplier.setBorderPainted(false);
@@ -943,7 +944,7 @@ public class Main extends javax.swing.JFrame {
         btn_customer.setBackground(new java.awt.Color(84, 140, 168));
         btn_customer.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
         btn_customer.setForeground(new java.awt.Color(238, 238, 238));
-        btn_customer.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_customer.png")); // NOI18N
+        btn_customer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_customer.png"))); // NOI18N
         btn_customer.setText("CUSTOMER");
         btn_customer.setBorder(null);
         btn_customer.setBorderPainted(false);
@@ -959,7 +960,7 @@ public class Main extends javax.swing.JFrame {
         btn_staff.setBackground(new java.awt.Color(84, 140, 168));
         btn_staff.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_staff.setForeground(new java.awt.Color(238, 238, 238));
-        btn_staff.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_staff.png")); // NOI18N
+        btn_staff.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_staff.png"))); // NOI18N
         btn_staff.setText("STAFF");
         btn_staff.setBorder(null);
         btn_staff.setBorderPainted(false);
@@ -975,7 +976,7 @@ public class Main extends javax.swing.JFrame {
         btn_user.setBackground(new java.awt.Color(84, 140, 168));
         btn_user.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_user.setForeground(new java.awt.Color(238, 238, 238));
-        btn_user.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_user.png")); // NOI18N
+        btn_user.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_user.png"))); // NOI18N
         btn_user.setText("ME");
         btn_user.setBorder(null);
         btn_user.setBorderPainted(false);
@@ -991,7 +992,7 @@ public class Main extends javax.swing.JFrame {
         btn_exit.setBackground(new java.awt.Color(84, 140, 168));
         btn_exit.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_exit.setForeground(new java.awt.Color(238, 238, 238));
-        btn_exit.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_exit.png")); // NOI18N
+        btn_exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_exit.png"))); // NOI18N
         btn_exit.setText("EXIT");
         btn_exit.setBorder(null);
         btn_exit.setBorderPainted(false);
@@ -1780,7 +1781,7 @@ public class Main extends javax.swing.JFrame {
         jLabel37.setText("ID:");
 
         btn_BillPlus.setForeground(new java.awt.Color(102, 255, 51));
-        btn_BillPlus.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_plus_15.png")); // NOI18N
+        btn_BillPlus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_plus_15.png"))); // NOI18N
         btn_BillPlus.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_BillPlus.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_BillPlus.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1789,7 +1790,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_BillSubtract.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_subtract_15.png")); // NOI18N
+        btn_BillSubtract.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_subtract_15.png"))); // NOI18N
         btn_BillSubtract.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_BillSubtract.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_BillSubtract.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1798,7 +1799,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_BillUpdate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_update_15.png")); // NOI18N
+        btn_BillUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_update_15.png"))); // NOI18N
         btn_BillUpdate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_BillUpdate.setPreferredSize(new java.awt.Dimension(30, 30));
 
@@ -1929,7 +1930,7 @@ public class Main extends javax.swing.JFrame {
         );
 
         btn_billCreate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        btn_billCreate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_success_15.png")); // NOI18N
+        btn_billCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_success_15.png"))); // NOI18N
         btn_billCreate.setText("Pay");
         btn_billCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(110, 203, 99), 2));
         btn_billCreate.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
@@ -1941,7 +1942,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         btn_billCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        btn_billCancel.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_trash_15.png")); // NOI18N
+        btn_billCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_trash_15.png"))); // NOI18N
         btn_billCancel.setText("Cancel");
         btn_billCancel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_billCancel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2119,7 +2120,7 @@ public class Main extends javax.swing.JFrame {
 
         jSeparator27.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        btn_productCreate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_plus_15.png")); // NOI18N
+        btn_productCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_plus_15.png"))); // NOI18N
         btn_productCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_productCreate.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_productCreate.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2128,7 +2129,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_productRepair.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_pencil_15.png")); // NOI18N
+        btn_productRepair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_pencil_15.png"))); // NOI18N
         btn_productRepair.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_productRepair.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_productRepair.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2137,7 +2138,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_productDelete.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_trash_15.png")); // NOI18N
+        btn_productDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_trash_15.png"))); // NOI18N
         btn_productDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_productDelete.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_productDelete.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2452,7 +2453,7 @@ public class Main extends javax.swing.JFrame {
 
         jSeparator32.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        btn_suplierCreate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_plus_15.png")); // NOI18N
+        btn_suplierCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_plus_15.png"))); // NOI18N
         btn_suplierCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_suplierCreate.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_suplierCreate.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2461,7 +2462,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_suplierRepair.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_pencil_15.png")); // NOI18N
+        btn_suplierRepair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_pencil_15.png"))); // NOI18N
         btn_suplierRepair.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_suplierRepair.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_suplierRepair.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2470,7 +2471,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_suplierDelete.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_trash_15.png")); // NOI18N
+        btn_suplierDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_trash_15.png"))); // NOI18N
         btn_suplierDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_suplierDelete.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_suplierDelete.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -2783,15 +2784,15 @@ public class Main extends javax.swing.JFrame {
 
         jSeparator38.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        btn_customerCreate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_plus_15.png")); // NOI18N
+        btn_customerCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_plus_15.png"))); // NOI18N
         btn_customerCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_customerCreate.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        btn_customerRepair.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_pencil_15.png")); // NOI18N
+        btn_customerRepair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_pencil_15.png"))); // NOI18N
         btn_customerRepair.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_customerRepair.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        btn_customerDelete.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_trash_15.png")); // NOI18N
+        btn_customerDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_trash_15.png"))); // NOI18N
         btn_customerDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_customerDelete.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_customerDelete.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3112,7 +3113,7 @@ public class Main extends javax.swing.JFrame {
 
         jSeparator44.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        btn_staffCreate.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_plus_15.png")); // NOI18N
+        btn_staffCreate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_plus_15.png"))); // NOI18N
         btn_staffCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_staffCreate.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_staffCreate.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3121,7 +3122,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_staffRepair.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_pencil_15.png")); // NOI18N
+        btn_staffRepair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_pencil_15.png"))); // NOI18N
         btn_staffRepair.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_staffRepair.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_staffRepair.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3130,7 +3131,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_staffDelete.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_trash_15.png")); // NOI18N
+        btn_staffDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_trash_15.png"))); // NOI18N
         btn_staffDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_staffDelete.setPreferredSize(new java.awt.Dimension(30, 30));
         btn_staffDelete.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3462,7 +3463,7 @@ public class Main extends javax.swing.JFrame {
         txt_meRole.setBorder(null);
 
         btn_meSave.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_meSave.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_success_15.png")); // NOI18N
+        btn_meSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_success_15.png"))); // NOI18N
         btn_meSave.setText("Save");
         btn_meSave.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(110, 203, 99), 2));
         btn_meSave.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
@@ -3474,7 +3475,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         btn_meCancel.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        btn_meCancel.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_cancel_15.png")); // NOI18N
+        btn_meCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_cancel_15.png"))); // NOI18N
         btn_meCancel.setText("Cancel");
         btn_meCancel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(189, 22, 22), 2));
         btn_meCancel.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
@@ -3484,7 +3485,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btn_meChangepass.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_key_15.png")); // NOI18N
+        btn_meChangepass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_key_15.png"))); // NOI18N
         btn_meChangepass.setText("Change pass");
         btn_meChangepass.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_meChangepass.setPreferredSize(new java.awt.Dimension(81, 25));
@@ -3595,7 +3596,7 @@ public class Main extends javax.swing.JFrame {
         );
 
         btn_meReport.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        btn_meReport.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_chart_15.png")); // NOI18N
+        btn_meReport.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_chart_15.png"))); // NOI18N
         btn_meReport.setText("Report");
         btn_meReport.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_meReport.setPreferredSize(new java.awt.Dimension(95, 50));
@@ -3623,7 +3624,7 @@ public class Main extends javax.swing.JFrame {
         );
 
         btn_meRole.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        btn_meRole.setIcon(new javax.swing.ImageIcon("D:\\1.Sor\\IT\\Study\\Java\\Project\\ProjectJava\\src\\main\\java\\com\\mycompany\\projectjava\\icon\\icon_role_15.png")); // NOI18N
+        btn_meRole.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/projectjava/icon/icon_role_15.png"))); // NOI18N
         btn_meRole.setText("Role");
         btn_meRole.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(84, 140, 168), 2));
         btn_meRole.setPreferredSize(new java.awt.Dimension(95, 50));
@@ -3875,7 +3876,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btn_roleFunctionShowall, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(152, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
 
         layeredPaneBot.add(pnlBotUserRole, "card2");
@@ -3901,9 +3902,12 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         boolean check = false;
         for (int i = 0; i < listFunctionUser.size(); i++) {
-            if (listFunctionUser.get(i).getIdFunction().equals("btn_create")) {
+            if (listFunctionUser.get(i).getIdFunction().equals(btn_create.getName())) {
                 check = true;
             }
+            //if(listFunctionUser.get(i).getIdFunction().equals(btn_create.getName())){
+                
+            //}
         }
         if (check)
             switchPanels(pnlTopBill, pnlBotBill);

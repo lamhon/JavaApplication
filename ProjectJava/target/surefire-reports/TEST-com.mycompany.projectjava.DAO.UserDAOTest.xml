@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="com.mycompany.projectjava.DAO.UserDAOTest" time="0.816" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="com.mycompany.projectjava.DAO.UserDAOTest" time="0.681" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="16.0.2+7-67"/>
@@ -60,14 +60,14 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testAddUser" time="0.003"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testCheckUsername" time="0"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetPass" time="0"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetID" time="0"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testChangePass" time="0"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testLogin" time="0.813"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetUser" time="0"/>
-  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetAll" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetID" time="0.003"/>
   <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testChangeInfo" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testAddUser" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetAll" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testChangePass" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testLogin" time="0.678"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetUser" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testGetPass" time="0"/>
+  <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testCheckUsername" time="0"/>
   <testcase classname="com.mycompany.projectjava.DAO.UserDAOTest" name="testChangeInfoADMIN" time="0"/>
 </testsuite>

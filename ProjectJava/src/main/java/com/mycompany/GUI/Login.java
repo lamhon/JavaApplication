@@ -5,6 +5,7 @@
  */
 package com.mycompany.GUI;
 
+import BLL.LoginBLL;
 import com.mycompany.projectjava.DAO.MD5;
 import com.mycompany.projectjava.DAO.UserDAO;
 import java.awt.Color;
@@ -301,18 +302,18 @@ public class Login extends javax.swing.JFrame {
         else{
             boolean check;
             try {
-                String hash = MD5.hashMD5(txt_password.getText());
-                check = UserDAO.Login(txt_username.getText(), hash);
+                check = LoginBLL.Login(txt_username.getText(), txt_password.getText());
                 if (check) {
                     //Main main = new Main();
                     //main.setVisible(true);
                     //main.pack();
                     //main.setLocationRelativeTo(null);
-                    USER = UserDAO.getUser(UserDAO.getID(txt_username.getText()));
+                    USER = LoginBLL.getUserLogin(txt_username.getText());
+                    Main.listFunctionUser = LoginBLL.getListFunction(USER.getRoleID());
                     
                     Main frame = new Main();
                     Main.USER = USER;
-                    Main.listFunctionUser = RoleDAO.getListRoleFunction(USER.getRoleID());
+                    
                     frame.setVisible(true);
                     //SwingUtilities.updateComponentTreeUI(frame);
                     frame.invalidate();
